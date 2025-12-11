@@ -1,0 +1,5 @@
+2025-12-05 14:22:10 GET /login 200 OK user=unknown
+2025-12-05 14:22:15 POST /login 403 FAIL user=john
+2025-12-05 14:22:17 POST /login 200 OK user=john
+2025-12-05 14:25:44 GET /settings 200 OK user=john
+2025-12-05 14:27:01 POST /admin 401 UNAUTH user=john
